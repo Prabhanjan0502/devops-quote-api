@@ -10,6 +10,6 @@ Git -> Jenkins -> Ansible -> Docker -> Kubernetes.
 - GET  /quotes   - list all quotes
 - POST /quotes   - add a quote (JSON: {"quote": "..."})
 
-## Run locally
-    pip install -r requirements.txt
-    python app.py
+## Build and run locally
+    mvn clean package
+    java -jar target/quote-api-1.0.0.jar
