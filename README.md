@@ -13,3 +13,5 @@ Git -> Jenkins -> Ansible -> Docker -> Kubernetes.
 ## Build and run locally
     mvn clean package
     java -jar target/quote-api-1.0.0.jar
+
+Pipeline: pushes to main are built automatically by Jenkins.
