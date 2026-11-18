@@ -22,7 +22,7 @@ class QuoteControllerTest {
     void healthReturnsOk() throws Exception {
         mvc.perform(get("/health"))
            .andExpect(status().isOk())
-           .andExpect(jsonPath("$.status").value("broken"));
+           .andExpect(jsonPath("$.status").value("ok"));
     }
 
     @Test
