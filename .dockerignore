@@ -1,0 +1,11 @@
+.git
+venv
+__pycache__
+src
+ansible
+target/*.original
+target/classes
+target/test-classes
+target/maven-archiver
+target/maven-status
+target/surefire-reports
